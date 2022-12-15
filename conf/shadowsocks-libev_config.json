@@ -9,6 +9,6 @@
     "reuse_port":true,
     "no_delay":true,
     "plugin": "v2raу-plugin",
-    "plugin_opts":"server;path=${V2_Path}",
+    "plugin_opts":"path=/v2;host={Domain};tls",
     "remarks":"SkyNet VPN"
 }
