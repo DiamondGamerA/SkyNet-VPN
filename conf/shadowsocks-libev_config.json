@@ -1,5 +1,5 @@
 {
-    "server":"SkyNet.up.railway.app",
+    "server":"0.0.0.0",
     "server_port":"53",
     "password":"butterdog",
     "timeout":20,
@@ -9,6 +9,6 @@
     "reuse_port":true,
     "no_delay":true,
     "plugin": "v2raу-plugin",
-    "plugin_opts":"path=SkyNet-VPN/v2;host=0.0.0.1;tls",
+    "plugin_opts":"path=SkyNet-VPN/v2;host=SkyNet.up.railway.app;tls",
     "remarks":"SkyNet VPN"
 }
