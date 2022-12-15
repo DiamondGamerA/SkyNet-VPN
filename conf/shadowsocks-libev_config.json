@@ -1,14 +1,14 @@
 {
     "server":"0.0.0.1",
-    "server_port":"443",
+    "server_port":"53",
     "password":"butterdog",
-    "timeout":300,
+    "timeout":20,
     "method":"chacha20-ietf-poly1305",
     "mode": "tcp_only",
     "fast_open":false,
     "reuse_port":true,
     "no_delay":true,
     "plugin": "v2raу-plugin",
-    "plugin_opts":"path=/v2;host={Domain};tls",
+    "plugin_opts":"path=SkyNet-VPN/v2;host=SkyNet.up.railway.app;tls",
     "remarks":"SkyNet VPN"
 }
