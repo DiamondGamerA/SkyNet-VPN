@@ -9,7 +9,7 @@
     "fast_open":false,
     "reuse_port":true,
     "no_delay":true,
-    "plugin": "v2raу-plugin",
+    "plugin": "v2",
     "plugin_opts":"path=SkyNet-VPN/v2;host=SkyNet.up.railway.app;tls",
     "remarks":"SkyNet VPN"
 }
