@@ -1,14 +1,14 @@
 {
-    "server":"127.0.0.1",
-    "server_port":"2333",
-    "password":"${PASSWORD}",
+    "server":"0.0.0.1",
+    "server_port":"443",
+    "password":"butterdog",
     "timeout":300,
-    "method":"${ENCRYPT}",
+    "method":"chacha20-ietf-poly1305",
     "mode": "tcp_only",
     "fast_open":false,
     "reuse_port":true,
     "no_delay":true,
-    "plugin": "v2",
+    "plugin": "v2raу-plugin",
     "plugin_opts":"server;path=${V2_Path}",
-    "remarks":"Aditya's VPN"
+    "remarks":"SkyNet VPN"
 }
